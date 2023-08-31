@@ -1,4 +1,4 @@
-baseURL = "https://anitvam.github.io/slides-template-reveal-hugo"
+baseURL = "https://anitvam.github.io/slides-template-hugo-reveal/"
 languageCode = "en-us"
 title = "A Hugo theme for creating Reveal.js presentations"
 disableKinds = ["sitemap", "RSS"]
@@ -6,8 +6,8 @@ theme = "reveal-hugo"
 publishDir = "build"
 
 # uncomment for browsing at file:///
-# relativeURLs = true
-# uglyURLs = true
+#relativeURLs = true
+#uglyURLs = true
 
 [author]
 name = "Martina Baiardi"
