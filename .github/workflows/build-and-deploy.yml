@@ -54,10 +54,6 @@ jobs:
         run: rm hugo.deb
       - name: Build slides with hugo
         run: hugo
-      - name: Transform and Inline Mermaid charts
-        uses: cric96/inline-mermaid@v1.8.1
-        with:
-          css-file-regex: '^css\\/.*custom.*theme.*\\.css$'
       - name: Get branch name
         id: branch-name
         uses: tj-actions/branch-names@v7
